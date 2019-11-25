@@ -1,0 +1,36 @@
+  /$$     /$$$$$$$$ /$$   /$$ /$$$$$$$$       /$$$$$$$$ /$$$$$$ /$$       /$$$$$$$$
+|__  $$__/                   | $$    |__  $$__/| $$  / $$|__  $$__/      | $$_____/|_  $$_/| $$      | $$_____/
+   | $$  /$$$$$$   /$$$$$$$ /$$$$$$     | $$   |  $$/ $$/   | $$         | $$        | $$  | $$      | $$      
+   | $$ /$$__  $$ /$$_____/|_  $$_/     | $$    \  $$$$/    | $$         | $$$$$     | $$  | $$      | $$$$$   
+   | $$| $$$$$$$$|  $$$$$$   | $$       | $$     >$$  $$    | $$         | $$__/     | $$  | $$      | $$__/   
+   | $$| $$_____/ \____  $$  | $$ /$$   | $$    /$$/\  $$   | $$         | $$        | $$  | $$      | $$      
+   | $$|  $$$$$$$ /$$$$$$$/  |  $$$$//$$| $$   | $$  \ $$   | $$         | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+   |__/ \_______/|_______/    \___/ |__/|__/   |__/  |__/   |__/         |__/      |______/|________/|________/
+                                                                                                               
+                                                                                                               
+
+1) Creates a List containing randomly generated assignments for each of the 6 Red Agents, 5 Blue Agents, 5 Green Agents, 7 Innocent Bystanders, and 2 Assassins [3 points]
+
+Method: Board() in Board class
+Test Case: Located on Line 29, testAssignments()
+
+                    
+
+2) Method defined which correctly returns whether or not the Board is in one of the winning states [5 points]
+
+Method: getVictoryFormation() in Board class  
+Test Case: Located on Line 57, testWinningStates()
+
+
+
+3) Method defined which correctly returns which team wins once the 2nd Assassin is revealed [8 points]
+
+Method: winningSquadAfterSecondAssassinReveal() in Board class
+Test Case: Located on Line 68, testWinningTeamAfterSecondAssassinReveal()
+
+
+
+4) Method which returns which is used at the end of a turn to determine the team whose move is next (this must include the possibility that the next team in the 3-team rotation had previously Revealed an Assassin) [7 points]
+
+Method: SquadTurn() in Board class
+Test Case: Located on Line 88, testNextMoveTeam()

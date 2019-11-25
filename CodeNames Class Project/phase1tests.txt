@@ -1,0 +1,70 @@
+  /$$     /$$$$$$$$ /$$   /$$ /$$$$$$$$       /$$$$$$$$ /$$$$$$ /$$       /$$$$$$$$
+|__  $$__/                   | $$    |__  $$__/| $$  / $$|__  $$__/      | $$_____/|_  $$_/| $$      | $$_____/
+   | $$  /$$$$$$   /$$$$$$$ /$$$$$$     | $$   |  $$/ $$/   | $$         | $$        | $$  | $$      | $$      
+   | $$ /$$__  $$ /$$_____/|_  $$_/     | $$    \  $$$$/    | $$         | $$$$$     | $$  | $$      | $$$$$   
+   | $$| $$$$$$$$|  $$$$$$   | $$       | $$     >$$  $$    | $$         | $$__/     | $$  | $$      | $$__/   
+   | $$| $$_____/ \____  $$  | $$ /$$   | $$    /$$/\  $$   | $$         | $$        | $$  | $$      | $$      
+   | $$|  $$$$$$$ /$$$$$$$/  |  $$$$//$$| $$   | $$  \ $$   | $$         | $$       /$$$$$$| $$$$$$$$| $$$$$$$$
+   |__/ \_______/|_______/    \___/ |__/|__/   |__/  |__/   |__/         |__/      |______/|________/|________/
+                                                                                                               
+                                                                                                               
+
+1) Defines a Board class contains 25 Location instances[6 points] 
+
+Method: Board() in Board class
+Test Case: Located on Line 30, testBoardInstance()
+
+                    
+
+2) Read GameWords.txt and store code names in a list [10 Points] 
+
+Method: createListOfNames(String fileName) in ListCreator class  
+Test Case: Located on Line 45, testListOfNames()
+
+
+
+3) Creates List containing 25 distinct codeNames selected at random [10 points]
+
+Method: randomlySelectCodeNames(List<String> listOfCodeNames) in ListCreator Class
+Test Case: Located on Line 57, testRandomlySelectCodeNames()
+
+
+
+4) Creates List containing randomly generated assignments for each of the 9 Red Agents, 
+8 Blue Agents, 7 Innocent Bystanders, and 1 Assassin [10 points] 
+
+Method: randomlyGeneratePersons() in ListCreator Class
+Test Case: Located on Line 76, testRandomAssignments()
+
+
+
+5) When game started, it is Red team's move and each of Board's 25 Location
+instances is assigned a codeName, Person, and is Not Revealed [15 points]
+
+Method: Board() in Board class
+Test Case: Located on Line 117, testStartRedTeamTurnAndLocationAssignments()
+
+
+
+6) Method defined which correctly returns if a clue is legal or illegal[10 points] 	
+Method: isClueLegal(String clue) in Board Class  
+Test Case: Located on Line 138, testIsClueLegal()
+
+
+
+7) Method defined which decrements the count, updates a Location, when the Location's codeName was selected, 
+and returns if the Location contained the current team's Agent [10 points]
+Method: locationContainsCurrentTeamAgents(Location location) in Board class 
+Test Case: Located on Line 152, testLocationContainsCurrentTeamAgents()
+ 
+
+
+8) Method defined which correctly returns whether or not the Board is in one of the winning states [15 points]	
+Method: inWinningState(Location location) in Board class 
+Test Case: Located on Line 177, testInWinningState()
+
+
+
+9) Method defined which correctly returns which team did not lose,(i.e., win) when the Assassin was revealed [10 points] 
+Method: teamDidNotLose() in Board Class 
+Test Case: Located on line 208, testTeamDidNotLose() 	
