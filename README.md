@@ -1,1 +1,3 @@
 # CodeNames-Boardgame-Project
+
+@ FILL IN INSTRUCTIONS HOW TO PLAY THE GAME
